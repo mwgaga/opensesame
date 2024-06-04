@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirect to OpenSesame</title>
+</head>
+<body>
+    <script type="text/javascript">
+        // When the page loads, redirect to the custom URL scheme
+        window.onload = function() {
+            window.location.href = 'opensesame://';
+        }
+    </script>
+</body>
+</html>
